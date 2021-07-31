@@ -22,7 +22,7 @@ $ sudo fsapfsmount -f 1 /dev/sd* /media/*
 
 $ sudo fusermount -u /mnt
 
-#######################################################
+##############################################
 
 #Install dmg2img
 
