@@ -19,6 +19,7 @@ $ sudo apt-get install libfsapfs-utils
 #when automatic mount of apfs failed
 
 $ sudo fsapfsmount -f 1 /dev/sd* /media/*
+
 $ sudo fusermount -u /mnt
 #######################################################
 
