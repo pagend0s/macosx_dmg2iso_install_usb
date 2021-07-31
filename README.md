@@ -4,15 +4,19 @@
 
 ######section for mounting apfs under linux mint########
 universe repositories for mint
+
 $ sudo add-apt-repository universe
 
 when needed for exfat format
+
 $ sudo apt-get install exfat-fuse exfat-utils
 
 libraries to mount and read apfs format
+
 $ sudo apt-get install libfsapfs-utils
 
 when automatic mount of apfs failed
+
 $ sudo fsapfsmount -f 1 /dev/sd* /media/*
 $ sudo fusermount -u /mnt
 #######################################################
